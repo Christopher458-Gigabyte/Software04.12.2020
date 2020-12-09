@@ -1,0 +1,14 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Willkommen auf Modulhandbook";
+}
+<h1>@ViewData["Title"]</h1>
+
+
+
+<div class="text-center">
+    <h1 class="display-4">Bitte wählen Sie ein Datenbank aus</h1>
+    <a asp-page="./Modules/Delete" asp-route-id="1">Datenbank1</a>
+
+    <a asp-page="./Modules/Delete" asp-route-id="2">Datenbank2</a>
